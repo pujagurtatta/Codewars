@@ -9,13 +9,13 @@ function problem(x){
     if(x === x.toString()){
       return "Error"
     }else{
-      return (x*50)+6
+      return (x * 50)+ 6
     }
   }
 
 // SOLUTION 2
 
-const problem = x = typeof x === "number" ? (x*50)+6 : "Error";
+const problem = x => typeof x === "number" ? (x * 50 )+ 6 : "Error";
 
 // SOLUTION 3
 
